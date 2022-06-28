@@ -1,0 +1,76 @@
+﻿#container  {
+    background-color: white
+}
+
+#topbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#topbar ul{
+    display: flex;
+    flex-direction:row;
+    list-style-type: none;
+    padding: 5px;
+}
+
+li {
+    margin-left: 20px
+}
+
+section {
+    display: flex;
+    justify-content: space-between
+}
+
+#left {
+    padding: 5px;
+    width: 40%
+}
+
+#right {
+    padding: 5px;
+    width: 100%
+}
+
+h2  {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align:center;
+    font-size: 32px
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    margin: 7px;
+    color: grey
+}
+
+li a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black
+}
+
+#mainnav li a:hover  {
+    border-bottom: 3px solid black
+}
+
+#login a{
+    border: 1px solid grey;
+    padding: 6px;
+    border-radius: 3px
+}
+
+#signup a {
+    background-color: dodgerblue;
+    padding: 6px;
+    border-radius: 3px
+}
+
+#join li a:hover {
+    background-color: dimgrey
+}
+
+
